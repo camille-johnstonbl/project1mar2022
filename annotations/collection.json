@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://camille-johnstonbl.github.io/project1mar2022/annotations/25ca283fca872e9ee7be88c7ab356257.json" ],
+  "@id" : "https://camille-johnstonbl.github.io/project1mar2022/annotations/collection.json",
+  "label" : "All annotations loaded in camille-johnstonbl/project1mar2022 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
