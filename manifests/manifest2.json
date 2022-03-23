@@ -3,6 +3,11 @@
   "@id" : "https://camille-johnstonbl.github.io/project1mar2022/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "maps and painting manifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/102249502/02af28e2a1e6736735dc9ae3e07794c6/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "viewingHint" : "paged",
   "metadata" : [ ],
   "description" : [ {
@@ -47,6 +52,11 @@
           "width" : 6687
         },
         "on" : "http://b8e18648-6f22-4938-89e4-f4f783938710"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://camille-johnstonbl.github.io/project1mar2022/annotations/25ca283fca872e9ee7be88c7ab356257.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
