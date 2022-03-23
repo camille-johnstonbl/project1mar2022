@@ -1,0 +1,128 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://camille-johnstonbl.github.io/project1mar2022/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "maps and painting manifest",
+  "viewingHint" : "paged",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A selection of maps and images from the British Library collections",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "The British Library",
+  "sequences" : [ {
+    "@id" : "http://7c39825b-9a78-49dd-b20e-0d73487cb1bb",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b8e18648-6f22-4938-89e4-f4f783938710",
+      "@type" : "sc:Canvas",
+      "label" : "map 1, uncropped",
+      "height" : 5136,
+      "width" : 6687,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://279921ec-ac0d-4278-8072-1327006bb7ac",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100052152274.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100052152274.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 5136,
+          "width" : 6687
+        },
+        "on" : "http://b8e18648-6f22-4938-89e4-f4f783938710"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d3593e87-345b-4b27-8713-b2edcb7d84b4",
+      "@type" : "sc:Canvas",
+      "label" : "map 2, unframed",
+      "height" : 6516,
+      "width" : 9075,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://342027fb-1526-45e1-9993-e74bd7255975",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100052170775.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100052170775.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6516,
+          "width" : 9075
+        },
+        "on" : "http://d3593e87-345b-4b27-8713-b2edcb7d84b4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8cbdb901-8f18-45a9-9622-d0aba0fa3276",
+      "@type" : "sc:Canvas",
+      "label" : "painting, unframed",
+      "height" : 6097,
+      "width" : 8845,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://25420a84-a417-46a6-b94f-029ee0e89f28",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100052180225.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100052180225.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 6097,
+          "width" : 8845
+        },
+        "on" : "http://8cbdb901-8f18-45a9-9622-d0aba0fa3276"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://b8e18648-6f22-4938-89e4-f4f783938710" ]
+  } ]
+}
